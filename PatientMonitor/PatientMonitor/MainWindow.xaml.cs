@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Media;
 
+
 namespace PatientMonitor
 {
     /// <summary>
@@ -30,7 +31,7 @@ namespace PatientMonitor
             PatientMonitoringController controller = new PatientMonitoringController(this, factory);
             controller.RunMonitor();
         }
-
+        
         public void soundMutableAlarm()
         {
             mutable.Stop();
