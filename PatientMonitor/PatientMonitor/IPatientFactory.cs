@@ -7,6 +7,6 @@ namespace PatientMonitor
 {
     interface IPatientFactory
     {
-        Object CreateandReturnObj(PatientClassesEnumeration objectToGet); //creating instance of PatientFactory.
+        Object CreateandReturnObj(PatientClassesEnumeration objectToGet);
     }
 }

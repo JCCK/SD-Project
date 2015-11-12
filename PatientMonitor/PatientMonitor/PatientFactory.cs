@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PatientMonitor
 {
-    class PatientFactory:IPatientFactory //The patient factory class is where the new alarm limits are set. 
+    class PatientFactory:IPatientFactory
     {
         public Object CreateandReturnObj(PatientClassesEnumeration objectToGet)
         {
@@ -14,19 +14,19 @@ namespace PatientMonitor
             switch (objectToGet)
             {
                 case PatientClassesEnumeration.PatientAlarmer:
-                    PatientAlarmer alarmer = new PatientAlarmer(); //Setting alarm values
+                    PatientAlarmer alarmer = new PatientAlarmer();
                     createdObject = alarmer;
                     break;
                 case PatientClassesEnumeration.PatientDataReader:
-                    PatientDataReader dataReader = new PatientDataReader(); //reads patient information
+                    PatientDataReader dataReader = new PatientDataReader();
                     createdObject = dataReader;
                     break;
                 case PatientClassesEnumeration.PatientData:
-                    PatientData patientData = new PatientData(); //setting patient data
+                    PatientData patientData = new PatientData();
                     createdObject = patientData;
                     break;
                 default:
-                    throw new ArgumentException("Invalid parameter passed"); //Error Catching.
+                    throw new ArgumentException("Invalid parameter passed");
             }
             return createdObject;
         }

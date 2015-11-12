@@ -23,14 +23,14 @@ namespace PatientMonitor
         public float Module3Upper { get; set; }
         public float Module4Upper { get; set; }
 
-        public Bays(string patientName, string module1, string module2, string module3,string module4,
+        public Bays(Label patientName, Label module1, Label module2, Label module3,Label module4,
             float module1Lower, float module2Lower, float module3Lower, float module4Lower,
             float module1Upper, float module2Upper, float module3Upper, float module4Upper)
         {
             PatientName = patientName;
             Module1 = module1;
             Module2 = module2;
-            Module3 = Module3;
+            Module3 = module3;
             Module4 = module4;
             Module1Lower = module1Lower;
             Module2Lower = module2Lower;

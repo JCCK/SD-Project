@@ -1,7 +1,7 @@
 ﻿
 namespace PatientMonitor
 {
-	public struct DefaultSettings //Default setting class that sets standard values for the patient vitals.
+	public struct DefaultSettings
 	{
 		public const float UPPER_PULSE_RATE = 80f;
 		public const float LOWER_PULSE_RATE = 60f;
@@ -13,6 +13,7 @@ namespace PatientMonitor
 		public const float LOWER_DIASTOLIC = 80f;
 		public const float UPPER_TEMPERATURE = 37.5f;
 		public const float LOWER_TEMPERATURE = 36.5f;
+        
 	}
 }
 

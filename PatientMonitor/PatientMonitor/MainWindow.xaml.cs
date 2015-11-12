@@ -53,5 +53,10 @@ namespace PatientMonitor
         {
 
         }
+
+        private void cmbBaySelector_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            cmbModule1Selector = PatientMonitoringController.
+        }
     }
 }

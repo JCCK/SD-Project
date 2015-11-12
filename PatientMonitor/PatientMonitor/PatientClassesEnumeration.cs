@@ -5,9 +5,9 @@ using System.Text;
 
 namespace PatientMonitor
 {
-    public enum PatientClassesEnumeration //setting up a group of values that are similar to each other
+    public enum PatientClassesEnumeration
     {
-        PatientDataReader, 
+        PatientDataReader,
         PatientAlarmer,
         PatientData
     }

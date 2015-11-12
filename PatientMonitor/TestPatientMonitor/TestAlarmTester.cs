@@ -10,12 +10,12 @@ namespace PatientMonitorTest
 	[TestClass]
 	public class TestAlarmTester
 	{
-		AlarmTester createdAlarmTester; //Testing alarm class
+		AlarmTester createdAlarmTester;
 
         [TestInitialize]
 		public void setup()
 		{
-			createdAlarmTester = new AlarmTester ("Test Name", 10f, 20f); //default values to be passed to the program.
+			createdAlarmTester = new AlarmTester ("Test Name", 10f, 20f);
 		}
 
 		[TestMethod]

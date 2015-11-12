@@ -52,7 +52,7 @@ namespace PatientMonitor
 		public bool ValueOutsideLimits (float value)
 		{
 			// return true if value outside limits;
-			return (false || value > UpperLimit || value < LowerLimit); 
+			return (false || value > UpperLimit || value < LowerLimit);
 		}
 	}
 }
