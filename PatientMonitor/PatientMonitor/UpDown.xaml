@@ -4,12 +4,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" Name="UpDown" BorderThickness="1" Height="39" Width="300">
-    <StackPanel Orientation="Horizontal" Height="37" Width="300
-                ">
+    <StackPanel Orientation="Horizontal" Height="37" Width="300">
         <Label x:Name="textValue" x:FieldModifier="private" Width="39" Content="0" Height="28" BorderThickness="1" BorderBrush="#FF5E6061" VerticalAlignment="Center" VerticalContentAlignment="Center" UseLayoutRounding="True" FontStretch="Normal" ForceCursor="False" />
         <Button x:Name="cmdUp" x:FieldModifier="private" Margin="5,5,0,5" Content="˄" Width="25" Click="cmdUp_Click" Height="25" />
         <Button x:Name="cmdDown" x:FieldModifier="private" Margin="0,5,0,5"  Content="˅" Width="25" Click="cmdDown_Click" Height="25" />
-        <ComboBox x:Name="recordSelector" x:FieldModifier="private"  Width="93" Margin="5,6,0,6"/>
-        <ComboBox x:Name="moduleSelector" x:FieldModifier="private"  Width="93" Margin="5,6,0,6"/>
     </StackPanel>
 </UserControl>

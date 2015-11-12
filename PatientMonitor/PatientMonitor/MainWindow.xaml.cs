@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -13,7 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Media;
 
-
 namespace PatientMonitor
 {
     /// <summary>
@@ -21,17 +21,17 @@ namespace PatientMonitor
     /// </summary>
     public partial class MainWindow : Window
     {
-        SoundPlayer mutable = new SoundPlayer(PatientMonitor.Properties.Resources.Mutable); //creating a 
+        SoundPlayer mutable = new SoundPlayer(PatientMonitor.Properties.Resources.Mutable);
         SoundPlayer nonMutable = new SoundPlayer(PatientMonitor.Properties.Resources.NonMutable);
 
         public MainWindow()
         {
             InitializeComponent();
-            PatientFactory factory = new PatientFactory(); //creating a new instance of patient factory
+            PatientFactory factory = new PatientFactory();
             PatientMonitoringController controller = new PatientMonitoringController(this, factory);
             controller.RunMonitor();
         }
-        
+
         public void soundMutableAlarm()
         {
             mutable.Stop();
@@ -44,19 +44,9 @@ namespace PatientMonitor
             nonMutable.Play();
         }
 
-        private void heartRateLower_Loaded(object sender, RoutedEventArgs e)
+        private void readingsDataGrid_Loaded(object sender, RoutedEventArgs e)
         {
 
-        }
-
-        private void systolicLower_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void cmbBaySelector_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            cmbModule1Selector = PatientMonitoringController.
         }
     }
 }

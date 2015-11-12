@@ -13,7 +13,6 @@ namespace PatientMonitor
 		public const float LOWER_DIASTOLIC = 80f;
 		public const float UPPER_TEMPERATURE = 37.5f;
 		public const float LOWER_TEMPERATURE = 36.5f;
-        
 	}
 }
 
