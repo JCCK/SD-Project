@@ -8,3 +8,4 @@ h:\my documents\visual studio 2012\Projects\WpfApplication2\WpfApplication2\obj\
 h:\my documents\visual studio 2012\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
 h:\my documents\visual studio 2012\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
 h:\my documents\visual studio 2012\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_Content.g.cs
+H:\My Documents\GitHub\SD-Project\staffReg\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config

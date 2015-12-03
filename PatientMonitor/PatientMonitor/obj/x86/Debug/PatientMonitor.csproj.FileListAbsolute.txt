@@ -121,3 +121,5 @@ C:\Users\Jake\Desktop\Uni Work\Year 2\Semester 1\Software Engineering\SD-Project
 C:\Users\Jake\Desktop\Uni Work\Year 2\Semester 1\Software Engineering\SD-Project\PatientMonitor\PatientMonitor\obj\x86\Debug\PatientMonitor.g.resources
 C:\Users\Jake\Desktop\Uni Work\Year 2\Semester 1\Software Engineering\SD-Project\PatientMonitor\PatientMonitor\obj\x86\Debug\PatientMonitor.Properties.Resources.resources
 C:\Users\Jake\Desktop\Uni Work\Year 2\Semester 1\Software Engineering\SD-Project\PatientMonitor\PatientMonitor\obj\x86\Debug\PatientMonitor.csproj.GenerateResource.Cache
+H:\My Documents\GitHub\SD-Project\PatientMonitor\PatientMonitor\obj\x86\Debug\PatientMonitor.exe
+H:\My Documents\GitHub\SD-Project\PatientMonitor\PatientMonitor\obj\x86\Debug\PatientMonitor.pdb

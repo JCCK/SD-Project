@@ -39,6 +39,22 @@ using System.Windows.Shell;
 public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
     
     
+    #line 6 "..\..\MainWindow.xaml"
+    [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+    internal System.Windows.Controls.Button BtnClock_in;
+    
+    #line default
+    #line hidden
+    
+    
+    #line 7 "..\..\MainWindow.xaml"
+    [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+    internal System.Windows.Controls.Button BtnClock_out;
+    
+    #line default
+    #line hidden
+    
+    
     #line 8 "..\..\MainWindow.xaml"
     [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
     internal System.Windows.Controls.TextBox staffIdtxtbox;
@@ -81,7 +97,15 @@ public partial class MainWindow : System.Windows.Window, System.Windows.Markup.I
     
     #line 13 "..\..\MainWindow.xaml"
     [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-    internal System.Windows.Controls.Button register;
+    internal System.Windows.Controls.Button BtnRegister;
+    
+    #line default
+    #line hidden
+    
+    
+    #line 16 "..\..\MainWindow.xaml"
+    [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+    internal System.Windows.Controls.TextBlock TxtBlckGuide;
     
     #line default
     #line hidden
@@ -117,22 +141,31 @@ public partial class MainWindow : System.Windows.Window, System.Windows.Markup.I
             switch (connectionId)
             {
             case 1:
-        this.staffIdtxtbox = ((System.Windows.Controls.TextBox)(target));
+        this.BtnClock_in = ((System.Windows.Controls.Button)(target));
         return;
             case 2:
-        this.staffLastNametxtbox = ((System.Windows.Controls.TextBox)(target));
+        this.BtnClock_out = ((System.Windows.Controls.Button)(target));
         return;
             case 3:
-        this.ContactNumbertxtbox = ((System.Windows.Controls.TextBox)(target));
+        this.staffIdtxtbox = ((System.Windows.Controls.TextBox)(target));
         return;
             case 4:
-        this.txtstaffFirstNametxtbox = ((System.Windows.Controls.TextBox)(target));
+        this.staffLastNametxtbox = ((System.Windows.Controls.TextBox)(target));
         return;
             case 5:
-        this.emailTxtBox = ((System.Windows.Controls.TextBox)(target));
+        this.ContactNumbertxtbox = ((System.Windows.Controls.TextBox)(target));
         return;
             case 6:
-        this.register = ((System.Windows.Controls.Button)(target));
+        this.txtstaffFirstNametxtbox = ((System.Windows.Controls.TextBox)(target));
+        return;
+            case 7:
+        this.emailTxtBox = ((System.Windows.Controls.TextBox)(target));
+        return;
+            case 8:
+        this.BtnRegister = ((System.Windows.Controls.Button)(target));
+        return;
+            case 9:
+        this.TxtBlckGuide = ((System.Windows.Controls.TextBlock)(target));
         return;
             }
         this._contentLoaded = true;
