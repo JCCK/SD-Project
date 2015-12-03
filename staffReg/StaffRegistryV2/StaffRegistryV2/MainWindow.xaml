@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525" Loaded="mainWindow_Loaded">
     <Grid>
-        <TextBox x:Name="TxtBoxUserName" HorizontalAlignment="Left" Height="23" Margin="47,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TxtBoxPassword" HorizontalAlignment="Left" Height="23" Margin="47,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtBoxUserName" HorizontalAlignment="Left" Height="23" Margin="47,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtBoxPassword" HorizontalAlignment="Left" Height="23" Margin="47,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="BtnClock_in" Content="Clock in" HorizontalAlignment="Left" Margin="25,250,0,0" VerticalAlignment="Top" Width="75" Click="BtnClock_in_Click"/>
         <Button x:Name="BtnClock_out" Content="Clock out" HorizontalAlignment="Left" Margin="138,250,0,0" VerticalAlignment="Top" Width="75" Click="BtnClock_out_Click"/>
         <TextBox x:Name="staffIdtxtbox" HorizontalAlignment="Left" Height="23" Margin="321,54,0,0" TextWrapping="Wrap" Text="Staff ID" VerticalAlignment="Top" Width="160" Foreground="#FFBBBBBB" BorderBrush="Black" TextInput="staffIdtxtbox_TextInput"/>
@@ -15,7 +15,7 @@
         <Button x:Name="BtnRegister" Content="Register" HorizontalAlignment="Left" Margin="306,250,0,0" VerticalAlignment="Top" Width="175" Click="BtnRegister_Click"/>
         <GridSplitter HorizontalAlignment="Left" Height="300" Margin="257,10,0,0" VerticalAlignment="Top" Width="4"/>      
         <TextBlock x:Name="TxtBlckGuide" HorizontalAlignment="Left" Margin="47,25,0,0" TextWrapping="Wrap" Text="Please select your log in details from the box below." VerticalAlignment="Top" Height="40" Width="150"/>
-   
-
+        <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="77,135,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblStaffID" Content="Staff ID" HorizontalAlignment="Left" Margin="77,79,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
