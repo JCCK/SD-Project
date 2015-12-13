@@ -1,0 +1,31 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PatientMonitor" x:Class="PatientMonitor.rectangles" 
+             mc:Ignorable="d" 
+             d:DesignHeight="520" d:DesignWidth="65">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="520" Margin="0,0,-0.2,0" VerticalAlignment="Top" Width="65">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="65*"/>
+            </Grid.RowDefinitions>
+            <local:alarmRectangle x:Name="recAlarm1" HorizontalAlignment="Left" Margin="0,4,0,0" VerticalAlignment="Top"/>
+            <local:alarmRectangle x:Name="recAlarm2" HorizontalAlignment="Left" Margin="0,2.2,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <local:alarmRectangle x:Name="recAlarm3" HorizontalAlignment="Left" Margin="0,3.2,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+            <local:alarmRectangle x:Name="recAlarm4" HorizontalAlignment="Left" Margin="1,1.6,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+            <local:alarmRectangle x:Name="recAlarm5" HorizontalAlignment="Left" Margin="0,2.8,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+            <local:alarmRectangle x:Name="recAlarm6" HorizontalAlignment="Left" Margin="1,2.2,0,0" Grid.Row="5" VerticalAlignment="Top"/>
+            <local:alarmRectangle x:Name="recAlarm7" HorizontalAlignment="Left" Margin="0,66.2,0,0" Grid.Row="5" VerticalAlignment="Top" Grid.RowSpan="2"/>
+            <local:alarmRectangle x:Name="recAlarm8" HorizontalAlignment="Left" Margin="0,3.4,0,0" Grid.Row="7" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</UserControl>
